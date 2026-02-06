@@ -117,7 +117,7 @@ function ModifyItem() {
         description,
         category,
         price: Number(price),
-        created_date: new Date().toISOString(),
+        // created_date: new Date().toISOString(),
         image: uplImag,
       };
       //await axios.post("http://localhost:3030/foods", foodData);
